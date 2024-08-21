@@ -3,8 +3,9 @@ import App from './App.vue'
 import router from './router'
 import '@nutui/touch-emulator'
 import '@/assets/css/index.scss'
+import 'swiper/css';
 
-import {Button, Input, Overlay, Progress, Notify} from "@nutui/nutui";
+import {Button, Image, Input, Notify, Overlay, Progress} from "@nutui/nutui";
 import "@nutui/nutui/dist/style.css";
 
 window.__VUE_PROD_DEVTOOLS__ = false;
@@ -17,4 +18,5 @@ createApp(App)
     .use(Input)
     .use(Progress)
     .use(Notify)
+    .use(Image)
     .mount('#app')
