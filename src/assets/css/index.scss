@@ -1,3 +1,30 @@
 @import './base.scss';
 @import './style.scss';
 
+#banner {
+  margin: 100px auto 0;
+}
+
+.swiper-slide {
+  width: 600px;
+  height: 450px;
+}
+
+.banner_page {
+  margin: 20px auto;
+  left: 0;
+  right: 0;
+}
+
+.banner_page span {
+  margin: 0 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px;
+  border-radius: 8px;
+}
